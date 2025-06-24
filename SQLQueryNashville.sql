@@ -57,7 +57,6 @@ add PropertySplitAddress nvarchar(255)
 update NashvilleHousing
 set PropertySplitAddress = SUBSTRING( PropertyAddress, 1, CHARINDEX(',', PropertyAddress)-1)
 
-
 alter table NashvilleHousing
 add PropertySplitCity nvarchar(255)
 
@@ -86,7 +85,6 @@ add OwnerSplitAddress nvarchar(255)
 
 update NashvilleHousing
 set OwnerSplitAddress = PARSENAME(replace(OwnerAddress,',', '.'), 3)
-
 
 alter table NashvilleHousing
 add OwnerSplitCity nvarchar(255)
@@ -146,6 +144,7 @@ where row_num > 1
 --from RowNumCTE
 --where row_num > 1
 
+	
 select *
 from NashvilleHousing
 
