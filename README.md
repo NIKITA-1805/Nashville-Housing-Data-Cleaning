@@ -88,7 +88,7 @@ After cleaning, the table includes:
 ## 📌 Author
 
 **Nikita Jadhao**  
-Connect with me on [LinkedInhttps://www.linkedin.com/in/nikita-jadhao-40450b286/) or [GitHub](https://github.com/NIKITA-1805).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/nikita-jadhao-40450b286/) or [GitHub](https://github.com/NIKITA-1805).
 
 ---
 
